@@ -1,0 +1,10 @@
+.container {
+    max-width: 60rem;
+    margin: 0 auto;
+    padding: 0 $m-size;
+}
+.container__side-by-side {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
