@@ -5,7 +5,7 @@ export const Header = ({ startLogout, ...props }) => (
     <div className="header">
         <div className="container">
             <div className="container__side-by-side">
-                <Link className="header__title" to='/dashboard'>
+                <Link className="header__title" to='/'>
                     <h1>{props.title}</h1>
                 </Link>
             </div>
